@@ -33,6 +33,7 @@ class Login extends React.Component {
     return (
       <div>
         <h1>{this.props.currentRecord}</h1>
+        <Button variant="primary" type="submit" onClick={() => {this.test("Hello User")}}></Button>
       </div>
     );
   }
