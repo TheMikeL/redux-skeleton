@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import LoginPage from './components/Login/Login';
+import HomePage from './components/Home';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         crossOrigin="anonymous"
       />
       <header className="App-header">
-        <LoginPage/>        
+        <HomePage/>        
       </header>
     </div>
   );

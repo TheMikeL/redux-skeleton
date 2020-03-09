@@ -2,7 +2,7 @@ import {
     SET_MAIN_NAME,
 } from '../actionTypes'
 
-const INITIAL_DATA = {name: "Hello"}
+const INITIAL_DATA = {name: "Lam"}
 
 const generalReducer = (state = INITIAL_DATA, action) => {
     switch (action.type) {
@@ -16,4 +16,4 @@ const generalReducer = (state = INITIAL_DATA, action) => {
             return state
     }
 }
-export default generalReducer
+export default generalReducer;
